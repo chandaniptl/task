@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.gallery {
+  border: 2px solid #ccc;
+  border-radius: 50px;
+}
+
+/* div.gallery:hover {
+  border: 9px solid #777;
+}  */
+
+div.gallery img {
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  border: 4px solid black;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-weight: 300;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>
+</head>
+<body>
+  <h1 style="text-align: center;">Visited <br>The Food Counter!!</h1>
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="1.webp">
+            <img src="1.webp" alt="Cinque Terre" class="center">
+          </a>
+          <div class="desc" style="font-weight: 800; font-size: larger;">The Love I Have For <br>Momo Is Beyond Words.</div>
+          <div class="desc" style="font-weight: 800; font-size: larger;">Price: $70</div>
+          <center>
+          <button class="desc" style="font-weight: 800; text-align: center;">Order Now</button>
+        </center>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="2.jpg">
+            <img src="2.jpg" alt="Forest" class="center">
+          </a>
+          <div class="desc" style="font-weight: 800; font-size: larger;">Something You Just Need<br> A Midday Pancake On A Rainy Day!</div>
+          <div class="desc" style="font-weight: 800; font-size: larger;">Price: $2.06</div>
+          <center>
+            <button class="desc" style="font-weight: 800; text-align: center;">Order Now</button>
+          </center>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="3.jpg" class="center">
+            <img src="3.jpg" alt="Northern Lights">
+          </a>
+          <div class="desc" style="font-weight: 800; font-size: larger;">In Croissant<br> We Trust!!</div>
+          <div class="desc" style="font-weight: 800; font-size: larger;">Price: $20</div>
+          <center>
+            <button class="desc" style="font-weight: 800; text-align: center;">Order Now</button>
+          </center>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="4.avif" class="center">
+            <img src="4.avif" alt="Mountains">
+          </a>
+          <div class="desc" style="font-weight: 800; font-size: larger;">Food Is Art <br>That You Can Eat!</div>
+          <div class="desc" style="font-weight: 800; font-size: larger;">Price: $53</div>
+          <center>
+            <button class="desc" style="font-weight: 800; text-align: center;">Order Now</button>
+          </center>
+        </div>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="5.jpg" class="center">
+            <img src="5.jpg" alt="Mountains">
+          </a>
+          <div class="desc" style="font-weight: 800; font-size: larger;">Cheesy Smiles And<br> Pepperoni Dreams!!</div>
+          <div class="desc" style="font-weight: 800; font-size: larger;">Price: $106</div>
+          <center>
+            <button class="desc" style="font-weight: 800; text-align: center;">Order Now</button>
+          </center>
+        </div>
+      </div>
+
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="6.webp" class="center">
+            <img src="6.webp" alt="Mountains">
+          </a>
+          <div class="desc"  style="font-weight: 800; font-size: larger;">Garlic Bread Bliss, <br>Baked To Perfection!</div>
+          <div class="desc" style="font-weight: 800; font-size: larger;">Price: $60</div>
+          <center>
+            <button class="desc" style="font-weight: 800; text-align: center;">Order Now</button>
+          </center>
+        </div>
+      </div>
+
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="7.jpg" class="center">
+            <img src="7.jpg" alt="Mountains">
+          </a>
+          <div class="desc"  style="font-weight: 800; font-size: larger;">Every Thing Is<br> Better With DONUTS!!</div>
+          <div class="desc" style="font-weight: 800; font-size: larger;">Price: $30</div>
+          <center>
+            <button class="desc" style="font-weight: 800; text-align: center;">Order Now</button>
+          </center>
+        </div>
+      </div>
+
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="8.jpg" class="center">
+            <img src="8.jpg" alt="Mountains">
+          </a>
+          <div class="desc"  style="font-weight: 800; font-size: larger;">Life Is Short,<br> Eat The Cake!</div>
+          <div class="desc" style="font-weight: 800; font-size: larger;">Price: $100</div>
+          <center>
+            <button class="desc" style="font-weight: 800; text-align: center;">Order Now</button>
+          </center>
+        </div>
+      </div>
+    
+      <div class="clearfix"></div> 
+</body>
+</html> 
+
